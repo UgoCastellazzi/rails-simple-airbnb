@@ -15,8 +15,8 @@
     <div class="navbar">
       <%= link_to "Simple AirBnb", flats_path, class: "logo"%>
       <%= link_to "Add a flat", new_flat_path, class: "btn btn-primary"%>
-      <form action="#" id="search-form">
-        <input type="text" id="search">
+      <form action= "/filter">
+        <input type="text" name="term" value="<%= params[:term] %>">
         <input type="submit">
       </form>
       
