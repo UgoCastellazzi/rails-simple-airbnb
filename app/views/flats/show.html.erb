@@ -1,0 +1,39 @@
+<div class="thumbnail"></div>
+
+<div class="info">
+    <div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="internal-container">
+              <div class="details">
+                <div class="details-card">
+                  <h2> <%= @flat.name %> </h2>
+                  <p> <%= @flat.address %> </p>
+                </div>
+                <div class="details-card">
+                  <h3>A bit more about this flat...</h3>
+                  <p> <%= @flat.description %> </p>
+                </div>
+              </div>
+              <div class="booking">
+                <div class="details-card book">
+                  <a class="btn btn-success" href="">Book now!</a>
+                </div>
+                <div class="details-card">
+                  <h2> Details </h2>
+                  <ul>
+                    <li>
+                      <i class="fas fa-user-friends"></i> <%= @flat.number_of_guests%>
+                    </li>
+                    <li>
+                      <i class="fas fa-euro-sign"></i> <%= @flat.price_per_night%>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+

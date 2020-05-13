@@ -1,0 +1,36 @@
+.thumbnail {
+  height: 400px;
+  background-image: url('https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200');
+  background-position: center;
+  background-size: cover;
+}
+
+.info {
+  margin-top: -100px;
+}
+
+.internal-container {
+    display: flex;
+}
+
+.details {
+  width: 66%;
+  margin-right: 20px;
+}
+
+.booking {
+  width: 33%;
+
+}
+
+.book {
+  text-align: center;
+}
+
+.details-card {
+  border-radius: 1px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  background-color: #F8F9FA;
+  padding: 20px;
+  margin: 20px 0px;
+}
