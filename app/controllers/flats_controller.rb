@@ -36,8 +36,7 @@ class FlatsController < ApplicationController
 
   def filter
     if params[:term] == ""
-      @flats = Flat.all
-      render :index
+      redirect_to flats_path
     else
       @flats = Flat.where("name LIKE '%#{params[:term]}%'")
       
