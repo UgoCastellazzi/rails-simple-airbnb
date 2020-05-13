@@ -15,6 +15,11 @@
     <div class="navbar">
       <%= link_to "Simple AirBnb", flats_path, class: "logo"%>
       <%= link_to "Add a flat", new_flat_path, class: "btn btn-primary"%>
+      <form action="#" id="search-form">
+        <input type="text" id="search">
+        <input type="submit">
+      </form>
+      
     </div>
     <%= yield %>
   </body>
